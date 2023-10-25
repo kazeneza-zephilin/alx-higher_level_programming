@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
-module for class
+module for square class
 """
 
+
 class Square:
-    """difined empty class
+    """
+    defined empty class
     """
     pass
