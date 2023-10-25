@@ -3,6 +3,7 @@
 
 import math
 
+
 class MagicClass:
     """A class representing a MagicClass with radius attribute and methods
     to calculate area and circumference.
