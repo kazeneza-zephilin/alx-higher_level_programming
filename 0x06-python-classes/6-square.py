@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module square"""
 
+
 class Square:
     """
     Represents a square with attributes:
