@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""class module"""
 
 
 class Square:
@@ -8,6 +9,8 @@ class Square:
     def __init__(self, size=0):
         """
         initialization of class attributes
+        args:
+        size:side length
         """
         if type(size) == int:
             self.__size = size
