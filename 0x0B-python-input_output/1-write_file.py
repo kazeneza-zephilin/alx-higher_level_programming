@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-# 1-number_of_lines.py
-"""Defines the file read  function."""
+"""Defines a file-writing function."""
 
 
 def write_file(filename="", text=""):
-    """function that write a text to a file"""
+    """Write a string to a UTF8 text file.
 
-    try:
-        with open(filename, 'w', encoding='utf-8') as file:
-            file.write(text)
-            return len(text)
-    except Exeception as e:
-        raise e
+    Args:
+        filename (str): The name of the file to write.
+        text (str): The text to write to the file.
+    Returns:
+        The number of characters written.
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
