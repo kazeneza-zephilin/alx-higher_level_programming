@@ -1,5 +1,3 @@
-8-uppercase.py
-
 #!/usr/bin/python3
 # 8-uppercase.py
 
