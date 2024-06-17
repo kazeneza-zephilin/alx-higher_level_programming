@@ -1,5 +1,5 @@
 #!/usr/bin/node
+// Print string “Javascript is amazing”
 
-//using console.lgo to log constant string to output.
-const myVar = "JavaScript is amazing";
+const myVar = 'Javascript is amazing';
 console.log(myVar);

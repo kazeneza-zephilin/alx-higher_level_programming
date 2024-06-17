@@ -1,15 +1,8 @@
 #!/usr/bin/node
+// prints the first argument passed to it
 
-//utilizing process.arv to check first command line argument
-cmdArgs = process.argv.slice(2);
-let firstArg = undefined;
-
-for (let arg of cmdArgs){
-    firstArg = arg;
-    break;
-}
-if (firstArg === undefined){
-    console.log("No argument");
-}else{
-    console.log(firstArg)
+if (process.argv[2] === undefined) {
+  console.log('No argument');
+} else {
+  console.log(process.argv[2]);
 }

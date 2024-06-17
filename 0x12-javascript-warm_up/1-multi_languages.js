@@ -1,6 +1,4 @@
 #!/usr/bin/node
+// It prints 3 lines
 
-//using console to log output.
-console.log("C is fun");
-console.log("Python us cool");
-console.log("JavaScript is amazing");
+console.log('C is fun\nPython is cool\nJavascript is amazing');
