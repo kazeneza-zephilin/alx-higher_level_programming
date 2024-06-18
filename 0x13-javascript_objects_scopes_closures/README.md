@@ -1,8 +1,7 @@
 # Javascript - Objects, Scopes and and Closures
 
-## Function Prototypes :floppy_disk:
-
-Prototypes for functions written in this project:
+![clusure meme](/images/closure.jpg)
+Prototypes for functions written in this project from project 7:
 
 | File               | Prototype                                               |
 | ------------------ | ------------------------------------------------------- |
