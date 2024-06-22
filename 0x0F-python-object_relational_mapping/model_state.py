@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" file that contains clss definition of a state and an 
+""" file that contains clss definition of a state and an
 instance Base = declarative_base."""
 
 from sqlalchemy import Column, Integer, String
