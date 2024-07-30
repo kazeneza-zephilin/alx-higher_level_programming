@@ -1,15 +1,14 @@
 #!/usr/bin/node
-/* a script that reads and logs the content of a file */
-
 const fs = require('fs');
 
-if (process.argv.length === 3) {
-  const filePath = process.argv[2];
-  fs.readFile(filePath, 'utf-8', (error, data) => {
-    if (error) {
-      console.log(error);
+const filePath = process.argv[2];
+
+fs.promises.readFile(filePath, 'utf-8')
+  .then(content => console.log(content))
+  .catch(error => {
+    if (error.code === 'ENOENT') {
+      console.error(`Error: ${error.code}: no such file or directory, open '${filePath}'`);
     } else {
-      console.log(data);
+      console.error(`Error occurred: ${error.message}`);
     }
   });
-}
